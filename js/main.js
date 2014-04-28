@@ -30,7 +30,7 @@
             $("#map_canvas").gmap3({
                 map: {
                     options: {
-                        maxZoom: 15,
+                        minZoom: 4,
                         streetViewControl: false,
                         panControl: true,
                         panControlOptions: {
@@ -45,17 +45,24 @@
 
                     }
                 },
-                infowindow: {
-                    address: venueAddress,
-                    options: {
-                        content: markerInfo
-                    }
-                },
+                // infowindow: {
+                    // address: venueAddress,
+                    // options: {
+                        // content: markerInfo
+                    // }
+                // },
                 marker: {
-                    address: venueAddress
+					values: [
+						{	address: "Sitges, Spain", data: "Beach Lab Sitges" },
+						{ 	address: "Grenoble, France", data: "FabLab Grenoble" },
+						{ 	address: "Cascina, Italy", data: "FabLab Cascina"},
+						{ 	address: "Zurich, Switzerland", data: "FabLab Zurich"},
+						{ 	address: "Rome, Italy", data: "MakerFaire Rome"},
+						{ 	address: "Utrecht, Netherlands", data: "FabLab Utrecht"}
+					]
+                    // address: venueAddress
                 }
-            },
-                "autofit");
+            });
         },
 
 
