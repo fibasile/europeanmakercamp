@@ -243,6 +243,12 @@
             $('#gotop').click(function () {
                 $('html, body').scrollTo($('#header'), 300);
             });
+            
+            // Register button in subscribe
+            $('#registernow').click(function() {
+                $('html, body').scrollTo($('#header'), 300);                
+            });
+
 
             // Go Register
             $('#goregister').click(function () {
