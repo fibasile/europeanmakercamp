@@ -16,8 +16,8 @@
             fn.Navigation();
             fn.Carousel();
             fn.Slider();
-            fn.RegisterForm();
-            fn.SubscribeForm();
+            // fn.RegisterForm();
+            // fn.SubscribeForm();
             fn.Apps();
         },
 
