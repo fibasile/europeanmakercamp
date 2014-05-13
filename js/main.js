@@ -246,7 +246,7 @@
             
             // Register button in subscribe
             $('#registernow').click(function() {
-                $('html, body').scrollTo($('#header'), 300);                
+                $('html, body').scrollTo($('#register'), 300);                
             });
 
 
